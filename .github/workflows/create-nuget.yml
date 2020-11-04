@@ -17,4 +17,4 @@ jobs:
           nuget-version: '5.x'
       - run: |
           nuget pack .nuspec -NoDefaultExcludes
-          nuget push Hantsch.CSharp.StyleCop.*.nupkg -NonInteractive --source https://api.nuget.org/v3/index.json
+          nuget push Hantsch.CSharp.StyleCop.*.nupkg -NonInteractive --src https://api.nuget.org/v3/index.json
