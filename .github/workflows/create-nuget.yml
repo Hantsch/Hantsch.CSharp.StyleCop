@@ -16,5 +16,5 @@ jobs:
           nuget-api-key: ${{ secrets.NUGETORGAPIKEY }}
           nuget-version: '5.x'
       - run: |
-          nuget pack .nuspec
-          nuget push *.nupkg -NonInteractive
+          nuget pack .nuspec -NoDefaultExcludes
+          nuget push Hantsch.CSharp.StyleCop.*.nupkg -NonInteractive -src https://api.nuget.org
