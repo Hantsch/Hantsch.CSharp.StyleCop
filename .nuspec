@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Hantsch.CSharp.StyleCop</id>
+    <version>1.0.0</version>
+    <title>Hantsch's C# coding style rules</title>
+    <description>This is a description, please read it. Thanks for reading!</description>
+    <authors>Roland Ebner</authors>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="1.1.118" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="stylecop.json" target="" />
+    <file src=".\.editorconfig" target="" />
+    <file src="hantsch.stylecop.ruleset" target="" />
+    <file src="hantsch.stylecop.props" target="build" />
+  </files>
+</package>

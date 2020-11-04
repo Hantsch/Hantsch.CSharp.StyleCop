@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "Hantsch",
+      "xmlHeader": false,
+      "documentExposedElements": false,
+      "documentInterfaces": false,
+      "documentPrivateElements": false,
+      "documentationCulture": "en-US",
+      "documentPrivateFields": false,
+      "documentInternalElements": false
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "indentation": {
+      "indentationSize": 4,
+      "useTabs": false
+    },
+    "namingRules": {},
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class",
+        "interface",
+        "enum",
+        "struct"
+      ]
+    },
+    "orderingRules": {
+      "systemUsingDirectivesFirst": false,
+      "usingDirectivesPlacement": "outsideNamespace",
+      "elementOrder": [
+        "kind",
+        "constant",
+        "accessibility",
+        "static",
+        "readonly"
+      ]
+    }
+  }
+}

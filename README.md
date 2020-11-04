@@ -1,2 +1,4 @@
 # Hantsch.CSharp.StyleCop
-Repository which adds StyleCop Analyser + rules and .editorconfig to project
+
+Refferences StyleCop.Analyzers NuGet Package
+Links stylecop.json, hantsch.stylecop.ruleset and .editorconfig to project.
