@@ -1,0 +1,20 @@
+name: Create Nuget Package
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: nuget/setup-nuget@v1
+        with:
+          nuget-api-key: ${{ secrets.NUGETORGAPIKEY }}
+          nuget-version: '5.x'
+      - run: |
+          nuget pack .nuspec -NoDefaultExcludes
+          nuget push Hantsch.CSharp.StyleCop.*.nupkg -NonInteractive -Source https://api.nuget.org/v3/index.json
