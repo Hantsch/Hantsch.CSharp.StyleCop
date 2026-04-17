@@ -12,8 +12,11 @@ The package distributes the following shared analyzer assets:
 
 ## Updating the NuGet API key
 
-If the publish workflow fails with a `403` from nuget.org, update the GitHub Actions secret `NUGETORGAPIKEY` in this repository:
+If the publish workflow fails with a `403` from nuget.org, create or rotate the nuget.org API key first, then update the GitHub Actions secret `NUGETORGAPIKEY` in this repository:
 
-1. Open this repository on GitHub.
-2. Go to `Settings` -> `Secrets and variables` -> `Actions`.
-3. Update the repository secret named `NUGETORGAPIKEY` with the current nuget.org API key.
+1. Sign in to `https://www.nuget.org/`.
+2. Open your account menu and go to `API Keys` (`https://www.nuget.org/account/apikeys`).
+3. Create a new API key for package push, copy it when shown, and keep it secure because nuget.org only shows it once.
+4. Open this repository on GitHub.
+5. Go to `Settings` -> `Secrets and variables` -> `Actions`.
+6. Update the repository secret named `NUGETORGAPIKEY` with the current nuget.org API key.
