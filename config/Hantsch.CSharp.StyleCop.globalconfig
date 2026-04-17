@@ -1,8 +1,4 @@
-root=true
-# Remove the line below if you want to inherit .editorconfig settings from higher directories
-
-# C# files
-[*.cs]
+is_global = true
 
 #### Core EditorConfig Options ####
 
@@ -256,3 +252,7 @@ resharper_wrap_array_initializer_style=chop_if_long
 resharper_wrap_before_first_type_parameter_constraint=true
 resharper_wrap_chained_binary_expressions=chop_if_long
 resharper_wrap_chained_method_calls=chop_if_long
+
+dotnet_diagnostic.IDE0003.severity=none
+dotnet_diagnostic.IDE0007.severity=warning
+dotnet_diagnostic.IDE0008.severity=none
