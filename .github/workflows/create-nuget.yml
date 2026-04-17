@@ -6,12 +6,12 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
-      - uses: nuget/setup-nuget@v1
+      - uses: nuget/setup-nuget@v3
         with:
           nuget-api-key: ${{ secrets.NUGETORGAPIKEY }}
           nuget-version: '5.x'
