@@ -1,6 +1,8 @@
 # Introduction
 
-Welcome travelers! So this package define some StyleCop rules i use for my projects.<br/>
+Welcome travelers! So this package defines some StyleCop rules i use for my projects.<br/>
+
+This repository contains the little bundle of C# style choices that keeps my projects in line and my eyeballs reasonably calm.<br/>
 
 This package uses the StyleCop.Analyzers NuGet package for code analyses and distributes the shared Roslyn analyzer configuration transitively.<br/>
 See: https://www.nuget.org/packages/stylecop.analyzers/
@@ -9,6 +11,13 @@ The package distributes the following shared analyzer assets:
 * stylecop.json
 * hantsch.stylecop.ruleset
 * config/Hantsch.CSharp.StyleCop.globalconfig
+* buildTransitive/hantsch.csharp.stylecop.props
+
+Mostly i use this for myself, but if these rules spark joy for your C# projects too, feel free to use it.
+
+## License
+
+Everyone can use it under the MIT License. The license file is here: [`LICENSE`](LICENSE)
 
 ## Updating the NuGet API key
 

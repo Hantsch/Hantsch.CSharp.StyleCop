@@ -2,19 +2,23 @@
 <package>
   <metadata>
     <id>Hantsch.CSharp.StyleCop</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>Hantsch's C# coding style rules</title>
-    <description>This is a description, please read it. Thanks for reading!</description>
+    <description>Shared StyleCop analyzer configuration, ruleset, and Roslyn analyzer settings for C# projects.</description>
     <authors>Roland Ebner</authors>
+    <license type="file">LICENSE</license>
+    <readme>PACKAGE-README.md</readme>
     <repository type="git" url="https://github.com/Hantsch/Hantsch.CSharp.StyleCop" />
     <dependencies>
       <dependency id="StyleCop.Analyzers" version="1.1.118" />
     </dependencies>
   </metadata>
   <files>
-    <file src="stylecop.json" target="" />
+    <file src="LICENSE" target="LICENSE" />
+    <file src="PACKAGE-README.md" target="PACKAGE-README.md" />
+    <file src="stylecop.json" target="stylecop.json" />
     <file src="config\Hantsch.CSharp.StyleCop.globalconfig" target="config" />
-    <file src="hantsch.stylecop.ruleset" target="" />
+    <file src="hantsch.stylecop.ruleset" target="hantsch.stylecop.ruleset" />
     <file src="hantsch.csharp.stylecop.props" target="buildTransitive" />
   </files>
 </package>
