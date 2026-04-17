@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hantsch.CSharp.StyleCop</id>
-    <version>1.0.5</version>
+    <version>1.0.4</version>
     <title>Hantsch's C# coding style rules</title>
     <description>Shared StyleCop analyzer configuration, ruleset, and Roslyn analyzer settings for C# projects.</description>
     <authors>Roland Ebner</authors>
@@ -14,11 +14,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="LICENSE" target="" />
-    <file src="PACKAGE-README.md" target="" />
-    <file src="stylecop.json" target="" />
+    <file src="LICENSE" target="LICENSE" />
+    <file src="PACKAGE-README.md" target="PACKAGE-README.md" />
+    <file src="stylecop.json" target="stylecop.json" />
     <file src="config\Hantsch.CSharp.StyleCop.globalconfig" target="config" />
-    <file src="hantsch.stylecop.ruleset" target="" />
+    <file src="hantsch.stylecop.ruleset" target="hantsch.stylecop.ruleset" />
     <file src="hantsch.csharp.stylecop.props" target="buildTransitive" />
   </files>
 </package>
