@@ -14,6 +14,6 @@ The package distributes the following shared analyzer assets:
 
 If the publish workflow fails with a `403` from nuget.org, update the GitHub Actions secret `NUGETORGAPIKEY` in this repository:
 
-1. Open `https://github.com/Hantsch/Hantsch.CSharp.StyleCop`.
+1. Open this repository on GitHub.
 2. Go to `Settings` -> `Secrets and variables` -> `Actions`.
 3. Update the repository secret named `NUGETORGAPIKEY` with the current nuget.org API key.
