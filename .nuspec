@@ -13,8 +13,8 @@
   </metadata>
   <files>
     <file src="stylecop.json" target="" />
-    <file src=".\.editorconfig" target="" />
+    <file src="config\Hantsch.CSharp.StyleCop.globalconfig" target="config" />
     <file src="hantsch.stylecop.ruleset" target="" />
-    <file src="hantsch.csharp.stylecop.props" target="build" />
+    <file src="hantsch.csharp.stylecop.props" target="buildTransitive" />
   </files>
 </package>
