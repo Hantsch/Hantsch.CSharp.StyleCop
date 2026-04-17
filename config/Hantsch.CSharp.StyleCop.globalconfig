@@ -1,7 +1,5 @@
 is_global = true
 
-[*.cs]
-
 #### Core EditorConfig Options ####
 
 # Indentation and spacing
