@@ -15,7 +15,6 @@
   </metadata>
   <files>
     <file src="LICENSE" target="" />
-    <file src="README.md" target="" />
     <file src="PACKAGE-README.md" target="" />
     <file src="stylecop.json" target="" />
     <file src="config\Hantsch.CSharp.StyleCop.globalconfig" target="config" />

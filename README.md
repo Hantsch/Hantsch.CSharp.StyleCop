@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome travelers! So this package define some StyleCop rules i use for my projects.<br/>
+Welcome travelers! So this package defines some StyleCop rules i use for my projects.<br/>
 
 This repository contains the little bundle of C# style choices that keeps my projects in line and my eyeballs reasonably calm.<br/>
 
