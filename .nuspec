@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hantsch.CSharp.StyleCop</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>Hantsch's C# coding style rules</title>
     <description>This is a description, please read it. Thanks for reading!</description>
     <authors>Roland Ebner</authors>
